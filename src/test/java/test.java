@@ -13,6 +13,7 @@ public class test {
         System.out.println("launching firefox browser");
         //System.setProperty("webdriver.chrome.driver", "./Resources/chromedriver.exe");
         System.setProperty("webdriver.gecko.driver", "./Resources/geckodriver.exe");
+        //just the comment
 
         driver = new FirefoxDriver();
     }
